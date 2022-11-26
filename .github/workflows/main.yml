@@ -17,8 +17,8 @@ jobs:
       - name: "login to docker hub"
         run: docker login --username Abomera --password dckr_pat_LoBKp-EEa4aMC28q1Sx9jCC78S4
 
-      - name: "buliding docker image"
-        run: docker bulid -t Abomera/myimage
+      # - name: "buliding docker image"
+      #   run: docker bulid -t Abomera/myimage
 
-      - name: "pushing to docker hub"
-        run: docker push Abomera/myimage
+      # - name: "pushing to docker hub"
+      #   run: docker push Abomera/myimage
