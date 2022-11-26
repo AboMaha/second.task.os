@@ -12,5 +12,10 @@ jobs:
 
     steps:
    
-      - name: 'printing folder contants'
+      - name: 'Before'
+        run: ls
+
+      - uses:  actions/ckeckout@v3
+
+      - name: 'After'
         run: ls
